@@ -1,6 +1,11 @@
 body{
   width: 100%;
 }
+
+.page1{
+  background: #d4ffef;
+  background: linear-gradient(314deg, rgba(212, 255, 239, 1) 0%, rgba(245, 255, 252, 1) 100%);
+}
 .title-main-biccas {
   color: #54BD95;
   opacity: 1;
@@ -10,9 +15,23 @@ body{
   font-size: 50px;
   line-height: 30px;
   letter-spacing: 0;
-  display: flex;
+  margin-top:40px;
+  margin-left:130px;
+  display:flex;
 
+}
 
+.footer-page1-text{
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  min-width: 720px;
+  min-height: 48px;
+  display:flex;
+  justify-content: center;
 }
 
 .list-horizontal {
@@ -20,23 +39,26 @@ body{
 }
 .group-244{
   border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-  padding: 40px 130px;
+  margin-top:40px;
+  margin-left:130px;
+  display: inline-flex;
 }
 .group-228{
   height: 22px;
-  width: 408px;
-  display:flex;
-  justify-content: space-between;
+  width: 750px;
+  margin-top:49px;
+  display: inline-flex;
+  margin-left: auto;
+  padding-left:400px;
+  justify-content: center;
 }
 .group-227{
   border-radius: 10px;
-  display: inline-flex;
+  margin-top: 40px;
+  padding-left: 300px;
 }
 
 .login-button{
-  display:inline-flex;
   font-family: "Inter", serif;
   font-weight: 500;
   font-style: normal;
@@ -46,6 +68,7 @@ body{
   color: #A6A6A6;
   background: none;
   border: none;
+  margin-right: 25px;
 
 }
 .login-button:hover{
@@ -53,7 +76,6 @@ body{
 }
 
 .signup-button{
-  display:inline-flex;
   font-family: "Inter", serif;
   font-weight: 500;
   font-style: normal;
@@ -71,7 +93,6 @@ body{
   color:black;
 }
 .btn-signup-background{
-  display:flex;
   background-color:#54BD95;
   border-radius:10px;
   width:80px;
@@ -80,7 +101,6 @@ body{
   justify-content: center;
 }
 .group-208{
-  display:flex;
   border-radius:10px;
 }
 
@@ -93,19 +113,16 @@ body{
   letter-spacing: 0;
   color: #A6A6A6;
   background: none;
-  display:inline-flex;
-
+  margin-left:25px;
+  margin-right:25px;
 
 }
 
 .list-buttons-main-element{
-  display: flex;
-  justify-content: space-between;
   margin-left:150px;
 }
 .buttons-main-element:hover
 {
-  display:inline-flex;
   font-family: "Inter", serif;
   font-weight: 500;
   font-style: normal;
@@ -114,7 +131,53 @@ body{
   letter-spacing: 0;
   color:  #000000;
   background: none;
+  margin-left:25px;
+  margin-right:25px;
 
+}
 
+.company{
+  display: flex;
+  min-height: 146px;
+  min-width: 1076px;
+  justify-content: center;
+  list-style-type: none;
+}
 
+.logos-list-div{
+  min-width: 1076px;
+  min-height:38px;
+  display: inline-flex;
+  list-style-type: none;
+}
+.logos-list{
+  margin-top:50px;
+  display: inline-flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.logo-comp-list{
+  margin-left: 50px;
+  margin-right: 75px;
+}
+
+.group-243{
+  display: inline-flex;
+  justify-content: center;
+  min-width: 1292px;
+  min-height:578px;
+}
+
+.group-242{
+  display: flex;
+  justify-content: center;
+  min-width: 555px;
+  min-height:578px;
+}
+.group-138{
+  display: flex;
+  justify-content: center;
+  min-width: 702px;
+  min-height:559px;
 }
