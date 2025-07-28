@@ -486,3 +486,84 @@ body{
   min-width: 64px;
   min-height: 28px;
 }
+
+.page2{
+  min-width: 1440px;
+  min-height: 541px;
+  background:  #F9F8FE;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+}
+.group-240{
+  min-width: 1440px;
+  min-height: 541px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.group-159{
+  min-width: 644px;
+  min-height: 421px;
+  justify-content: center;
+}
+.group-160{
+  min-width: 509px;
+  min-height: 411px;
+  display: flex;
+  justify-content: center;
+}
+.group-159-title{
+  min-width: 617px;
+  min-height: 122px;
+  display: flex;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #191A15;
+
+
+}
+.group-159-text{
+  min-width: 644px;
+  min-height: 90px;
+  display: flex;
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0;
+  color: #A6A6A6;
+
+}
+
+.list-group-160{
+  list-style-type: none;
+}
+.list-group-160-individual{
+  list-style-type: none;
+}
+
+.g160-title{
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #191A15;
+  display:flex;
+
+
+}
+.g160-subtitle{
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0;
+  color: #A6A6A6;
+  display:flex;
+}
