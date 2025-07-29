@@ -1,5 +1,6 @@
 body {
     width: 100%;
+  height: 100%;
 }
 
 .page1 {
@@ -16,9 +17,9 @@ body {
     font-size: 50px;
     line-height: 30px;
     letter-spacing: 0;
-    margin-top: 40px;
-    margin-left: 130px;
     display: flex;
+  padding-top: 40px;
+  padding-left: 130px;
 
 }
 
@@ -41,25 +42,27 @@ body {
 
 .group-244 {
     border-radius: 10px;
-    margin-top: 40px;
-    margin-left: 130px;
     display: inline-flex;
+  width: 100%;
 }
 
 .group-228 {
-    height: 22px;
-    width: 750px;
-    margin-top: 49px;
+    min-height: 22px;
+    min-width: 750px;
     display: inline-flex;
-    margin-left: auto;
-    padding-left: 400px;
     justify-content: center;
+  padding-top: 49px;
+  padding-left:339px;
+  float:left;
 }
 
 .group-227 {
-    border-radius: 10px;
-    margin-top: 40px;
-    padding-left: 300px;
+  min-width: 143px;
+  min-height: 40px;
+ padding-top: 40px;
+  padding-left: 260px;
+float: right;
+
 }
 
 .login-button {
@@ -792,6 +795,87 @@ color:#A6A6A6;
 }
 
 .page4{
-  background: #faf9eb;
-  background: linear-gradient(9deg, rgba(250, 249, 235, 1) 0%, rgba(240, 255, 227, 1) 100%);
+  background: #F9F8FE;
+  background: linear-gradient(2deg, rgba(245, 255, 252, 1) 0%, rgba(255, 249, 240, 1) 100%);
 }
+
+.page-4-title{
+  color: #191A15;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0;
+  min-width: 429px;
+  min-height: 70px;
+
+  opacity: 1;
+  display: flex;
+  padding-bottom: 35px;
+
+
+}
+.page4-subtitle{
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0;
+  min-width: 30px;
+  min-height: 30px;
+  opacity: 1;
+  display: flex;
+
+  color: #191A15;
+
+}
+
+.page4{
+  padding-top: 75px;
+  padding-left:130px;
+  padding-right:130px;
+  padding-bottom: 75px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+
+.page4-checkmark{
+  max-width: 90px;
+}
+.page4-left-side{
+  min-height: 471px;
+  min-width: 452px;
+    padding-right: 300px;
+}
+
+.page4-table td{
+  padding: 10px 5px;
+}
+
+.rect-48{
+    position: relative;
+    min-width: 450px;
+    min-height: 529px;
+}
+
+.group-111{
+    position: absolute;
+    top:30px;
+    right:300px;
+}
+.group-112{
+    position: absolute;
+    top:90px;
+    left:400px;
+}
+.group-113{
+    position: absolute;
+    top:260px;
+    right:425px;
+}.group-114{
+     position: absolute;
+     top:450px;
+     right:300px;
+ }
