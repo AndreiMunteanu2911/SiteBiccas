@@ -116,7 +116,7 @@ body {
     font-family: "Inter", serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 100%;
     letter-spacing: 0;
     color: #A6A6A6;
@@ -157,6 +157,7 @@ body {
     min-height: 38px;
     display: inline-flex;
     list-style-type: none;
+  padding-bottom: 50px;
 }
 
 .logos-list {
@@ -301,7 +302,9 @@ body {
     min-height: 40px;
     align-items: center;
     justify-content: center;
+  transition: 0.5s;
 }
+
 
 .demo-play-image:hover {
     display: flex;
@@ -521,19 +524,31 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+  padding-left:150px;
+  padding-right:150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .group-159 {
     min-width: 644px;
     min-height: 421px;
     justify-content: center;
+  padding-right: 50px;
 }
 
 .group-160 {
     min-width: 509px;
     min-height: 411px;
-    display: flex;
     justify-content: center;
+  border:none;
+
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .group-159-title {
@@ -546,6 +561,7 @@ body {
     line-height: 100%;
     letter-spacing: 0;
     color: #191A15;
+  padding-left:45px;
 
 
 }
@@ -560,6 +576,7 @@ body {
     line-height: 30px;
     letter-spacing: 0;
     color: #A6A6A6;
+  padding-left:45px;
 
 }
 
@@ -578,7 +595,7 @@ body {
     line-height: 100%;
     letter-spacing: 0;
     color: #191A15;
-    display: flex;
+  display: flex;
 
 
 }
@@ -590,14 +607,63 @@ body {
     line-height: 30px;
     letter-spacing: 0;
     color: #A6A6A6;
-    display: flex;
+   display: flex;
 }
 
 .rect-90 {
     width: 90px;
     height: 90px;
+  position: relative;
+}
+
+.vect1{
+  width: 30px;
+  height: 30px;
+  top:12px;
+  left:14px;
+  position:absolute;
+}
+.pie-chart-p2{
+  width: 30px;
+  height: 30px;
+  top:12px;
+  left:14px;
+  position:absolute;
+}
+.command-p2{
+  width: 30px;
+  height: 30px;
+  top:12px;
+  left:14px;
+  position:absolute;
 }
 
 .list\+image-page2 {
-    display: inline-flex;
+  display: inline-flex;
+}
+
+.group-159-table td{
+  padding: 10px  45px;
+}
+
+.g159-text1{
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #191A15;
+
+
+}
+.g159-text2{
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #A6A6A6;
+
+
+
 }
