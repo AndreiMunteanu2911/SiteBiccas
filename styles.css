@@ -319,10 +319,10 @@ body {
     background: none;
     border-style:solid;
     border-width: 2px;
-    transition: 0.2s;
+
     align-items: center;
     margin-right: 1vw;
-    border-style: solid;
+    background: #FFFFFF;
     justify-content: center;
 }
 
@@ -998,7 +998,7 @@ color:#A6A6A6;
 
  }
 
- .page5-buttonMonthly{
+ .page5-buttonYearly{
      background: #FFFFFF;
      min-height: 2vh;
      min-width: 6.5vw;
@@ -1007,14 +1007,15 @@ color:#A6A6A6;
      font-weight: 500;
      font-size: 18px;
      line-height: 30px;
+     transition: 0.2s;
      letter-spacing: 0;
      border: none;
      border-radius: 10px;
      padding:1.5vh 1vw;
  }
- .page5-buttonYearly{
+ .page5-buttonMonthly{
      background: #54BD95;
-
+    transition: 0.2s;
 
      min-height: 2vh;
      min-width: 6.5vw;
@@ -1140,6 +1141,7 @@ color:#A6A6A6;
     letter-spacing: 0;
     color: #191A15;
     padding-bottom: 2vh;
+    transition: 0.2s;
 }
 .page5-businessTierName{
     font-family:"Inter", serif;
@@ -1183,6 +1185,7 @@ color:#A6A6A6;
     font-weight: 600;
     font-size: 50px;
     line-height: 30px;
+    transition: 0.2s;
     padding-bottom: 2vh;
     letter-spacing: 0;
     color: #191A15;
@@ -1228,7 +1231,7 @@ color:#A6A6A6;
     font-family:  "Inter", serif;
     font-weight: 600;
     font-size: 50px;
-    leading-trim: NONE;
+    transition: 0.2s;
     line-height: 30px;
     letter-spacing: 0;
     padding-bottom: 0.5vh;
