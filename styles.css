@@ -978,9 +978,10 @@ color:#A6A6A6;
     justify-content: center;
     min-height: 25vh;
     min-width: 15vw;
-    background: #54BD95;
     border-radius: 20px;
     margin-right: 0.5vw;
+/*    background:radial-gradient(circle , #6BC2A1 50%, #54BD95 50%);*/
+    background:radial-gradient(circle 750px at 50% 82% , #6BC2A1 50%, #54BD95 50%);
     max-width: 20vw;
     margin-top: 2vh;
     margin-left: 0.5vw;
