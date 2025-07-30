@@ -281,22 +281,39 @@ body {
     display: inline-flex;
     min-width: 5vw;
     min-height: 5vh;
-    padding-top: 1.5vh;
-    padding-left: 1vw;
+    background: none;
+    padding:1.25vh 1.5vw;
+    transition: 0.2s;
+    align-items: center;
+    margin-right: 1vw;
+    justify-content: center;
+    border-radius: 15px;
+    border-width: 2px ;
 
 }
-
+.demo-area-button:hover {
+    border-width: 2px ;
+    border-style: solid;
+    border-color: #54BD95;
+    border-radius: 70px;
+    background: #FFFFFF;
+    color: #54BD95;
+    padding:1.25vh 1.5vw;
+    align-items: center;
+    margin-right: 1vw;
+    justify-content: center;
+}
 .demo-play-image {
     display: flex;
     min-width: 1vw;
     min-height: 1vh;
     align-items: center;
     justify-content: center;
-  transition: 0.5s;
+    margin-right: 0.75vw;
 }
 
 
-.demo-play-image:hover {
+/*.demo-play-image:hover {
     display: flex;
     min-width: 1vw;
     min-height: 1vh;
@@ -304,14 +321,19 @@ body {
     justify-content: center;
     background-color: rgba(212, 255, 239, 1);
     border-radius: 1000px;
-}
+}*/
 
 .demo-text {
     display: flex;
-    min-width: 5vw;
-    min-height: 1vh;
     align-items: center;
     justify-content: center;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 100%;
+    border-radius: 40px;
+    letter-spacing: 0;
 }
 
 .group-138-main-image {
@@ -1540,7 +1562,7 @@ border-radius: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-margin-left:auto;
+    margin-left:auto;
     margin-right:auto;
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -1554,7 +1576,7 @@ margin-left:auto;
 .page6-bottom-side-left{
     display: flex;
     flex-direction: column;
-    padding-right: 6vw;
+    padding-right: 8vw;
 }
 .page6-bottom-side-right{
     display: flex;
@@ -1582,17 +1604,20 @@ margin-left:auto;
     text-decoration: none;
     letter-spacing: 0;
     color: #FFFFFF;
-    border: 2px solid #A6A6A6;
+    border-width: 2px ;
+    border-style: solid;
+    border-color: #A6A6A6;
     border-radius: 70px;
     background: #161C28;
     padding: 2vh 1vw;
-    min-width: 17vw;
-
-
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .page6-bottom-side-left-input{
     position: relative;
+    min-width: 17vw;
+    width: 100%;
 }
 
 .page6-email-button{
@@ -1600,12 +1625,18 @@ margin-left:auto;
     background: #54BD95;
     overflow:hidden;
     border-radius: 50%;
-    min-width: 46px;
+    min-width: 45px;
     transition: 0.2s;
-    min-height: 46px;
+    min-height: 45px;
     border: none;
-    top: 6px;
-    left: 436px;
+top: 10%;
+    left: 87%;
+    box-sizing: border-box;
+/*    top:10%;
+    left: 87%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .page6-email-button:hover{
@@ -1617,7 +1648,10 @@ margin-left:auto;
 }
 
 .p6-arrow{
-    position: absolute;
-    top: 16px;
-    left: 446px;
+    /*position: absolute;*/
+    /*top: 16px;*/
+    /*left: 390px;*/
+    pointer-events: none;
+/*    top:28%;
+    left: 89%;*/
 }
