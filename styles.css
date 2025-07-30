@@ -900,7 +900,6 @@ color:#A6A6A6;
      text-align: center;
      border: none;
      border-radius: 10px;
-     box-shadow: 0px 4px 9px 0px #0000000D;
      padding-top: 1vh;
      padding-bottom: 1vh;
      margin-bottom: 8vh;
@@ -1288,7 +1287,7 @@ color: #FFFFFF;
 .page6{
     background: #161C28;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin:auto;
 
 }
@@ -1312,6 +1311,10 @@ color: #FFFFFF;
     color: #FFFFFF;
     margin-bottom: 5vh;
 
+}
+.page6-tophalf{
+    display: flex;
+    flex-direction: row;
 }
 
 .page6-right-side{
@@ -1425,6 +1428,7 @@ border-radius: 20px;
     letter-spacing: 0;
     background: #54BD95;
     display:flex;
+    box-shadow: 0px 4px 9px 0px #0000000D;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -1432,9 +1436,20 @@ border-radius: 20px;
     margin-bottom: 1vh;
     color: #FFFFFF;
     padding: 2vh 11.3vw;
+    transition: 0.2s;
+    border: none;
 
 }
 
+.page6-requestdemo-button:hover{
+    color: #54BD95;
+    background: #161C28;
+}
+
+.page6-requestdemo-button:active{
+    color: #FFFFFF;
+    background: #222938;
+}
 .page6-freeTrial{
     font-family: "Inter", serif;
     font-weight: 500;
@@ -1474,4 +1489,135 @@ border-radius: 20px;
     max-width: 30vw;
     margin-right: auto;
     margin-bottom: 18vh;
+}
+
+.review-pics-table td{
+    padding-right: 1vw;
+    margin-right: 1vw;
+}
+
+.page6-white-text{
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+    letter-spacing: 0;
+    color: #FFFFFF;
+
+
+}
+.page6-gray-text{
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-decoration: none;
+    letter-spacing: 0;
+    color: #A6A6A6;
+
+}
+
+
+.page6-footer{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 6vh;
+}
+.page6-footer-right{
+    padding-left: 20vw;
+    text-decoration: none;
+}
+.page6-footer-left{
+    padding-right: 20vw;
+    text-decoration: none;
+}
+
+.page6-bottom-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+margin-left:auto;
+    margin-right:auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.page6-bottom-side-right-table td{
+    padding-right: 4vw;
+    padding-bottom:3.5vh;
+}
+
+.page6-bottom-side-left{
+    display: flex;
+    flex-direction: column;
+    padding-right: 6vw;
+}
+.page6-bottom-side-right{
+    display: flex;
+    padding-left: 13vw;
+}
+
+.page6-bottom-side-left-title{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 5vh;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #54BD95;
+
+}
+.page6-bottom-side-left-text{
+    margin-bottom: 5vh;
+}
+.inputEmailP6{
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-decoration: none;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    border: 2px solid #A6A6A6;
+    border-radius: 70px;
+    background: #161C28;
+    padding: 2vh 1vw;
+    min-width: 17vw;
+
+
+}
+
+.page6-bottom-side-left-input{
+    position: relative;
+}
+
+.page6-email-button{
+    position: absolute;
+    background: #54BD95;
+    overflow:hidden;
+    border-radius: 50%;
+    min-width: 46px;
+    transition: 0.2s;
+    min-height: 46px;
+    border: none;
+    top: 6px;
+    left: 436px;
+}
+
+.page6-email-button:hover{
+    background: #222938;
+}
+.page6-email-button:active{
+
+    background: #161C28;
+}
+
+.p6-arrow{
+    position: absolute;
+    top: 16px;
+    left: 446px;
 }
