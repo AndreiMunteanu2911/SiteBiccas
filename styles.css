@@ -18,8 +18,8 @@ body {
     line-height: 30px;
     letter-spacing: 0;
     display: flex;
-  padding-top: 5vh;
-  padding-left: 4vw;
+    padding-top:4vh;
+
 
 }
 
@@ -37,21 +37,25 @@ body {
 
 .group-244 {
     border-radius: 10px;
-    display: inline-flex;
-    justify-content: space-between;
+    display: flex;
+    margin: auto;
     max-height: 3vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6vh;
+    padding-right: 4vw;
 }
 
 .group-228 {
     display: inline-flex;
     justify-content: center;
   padding-top: 6vh;
-  padding-left:7vw;
+  padding-left:9vw;
   float:left;
 }
 
 .group-227 {
- padding-top: 5vh;
+ padding-top: 6vh;
   padding-left: 5vw;
     display: inline-block;
 }
@@ -122,14 +126,13 @@ body {
     letter-spacing: 0;
     color: #A6A6A6;
     background: none;
-    padding-left: 1vw;
+    padding-left: 0.8vw;
   transition: 0.2s;
-    padding-right: 1vw;
+    padding-right: 0.8vw;
 
 }
 
-.list-buttons-main-element {
-    padding-left: 15vw;
+.list-buttons-main-element {;
     display: flex;
 }
 
@@ -142,8 +145,8 @@ body {
     letter-spacing: 0;
     color: #000000;
     background: none;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
 
 }
 
@@ -178,6 +181,7 @@ body {
     align-items: center;
     padding-top: 5vw;
     padding-bottom: 5vw;
+    margin: auto;
 }
 
 .group-242 {
@@ -743,9 +747,12 @@ color:#A6A6A6;
   background-color: #54BD95;
   color: #FFFFFF;
   border: none;
-  min-width: 1vw;
-  min-height: 1vh;
-  opacity: 1;
+
+    opacity: 1;
+    font-family: "inter", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
   border-radius: 70px;
   background-size:1vw 1vh;
   margin-left: auto;
@@ -754,23 +761,12 @@ color:#A6A6A6;
   transition: 0.2s;
   text-align: center;
   vertical-align: middle;
-  padding: 2vh 1vw;
+  padding: 2.5vh 1.5vw;
 }
 .page-3-button:hover{
     color: #54BD95;
     background: rgba(245, 255, 252, 1);
-  border: none;
-    background-size:1vw 1vh;
-    min-width: 1vw;
-    min-height: 1vh;
-  opacity: 1;
-  border-radius: 70px;
-  margin-left: auto;
-  margin-right: 0;
-  align-self: center;
-  text-align: center;
-  vertical-align: middle;
-    padding: 2vh 1vw;
+
 }
 
 .page4{
