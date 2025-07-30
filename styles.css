@@ -1303,12 +1303,14 @@ color: #FFFFFF;
 
 }
 .page6-title{
+    margin-top: 1vh;
     font-family: "Inter", serif;
     font-weight: 600;
     font-size: 50px;
     line-height: 100%;
     letter-spacing: 0;
     color: #FFFFFF;
+    margin-bottom: 5vh;
 
 }
 
@@ -1316,6 +1318,26 @@ color: #FFFFFF;
     background: #222938;
 border-radius: 20px;
     border:none;
+ /*   min-width: 40vw;*/
+    margin-left: 5vw;
+
+    margin-top:15vh;
+    margin-right: 15vw;
+    margin-bottom: 18vh;
+
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.page6-subtitle{
+    margin-bottom: 5vh;
+}
+.page6-icon{
+    margin-bottom: 5vh;
+}
+
+.page6-review{
+    margin-bottom: 5vh;
 }
 
 .page6-getstarted{
@@ -1328,6 +1350,7 @@ border-radius: 20px;
     justify-content: center;
     letter-spacing: 0;
     color: #FFFFFF;
+    padding-bottom: 2vh;
 }
 
 .page6-right-side-table{
@@ -1347,6 +1370,7 @@ border-radius: 20px;
     display:flex;
     align-items: center;
     float: left;
+    padding-bottom: 2vh;
 
 }
 
@@ -1361,6 +1385,12 @@ border-radius: 20px;
     display:flex;
     align-items: center;
     justify-content: center;
+    padding: 2vh 1vw;
+    margin-bottom: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 25vw;
+
 
 }
 .inputMessage{
@@ -1369,12 +1399,18 @@ border-radius: 20px;
     background: #FFFFFF;
     font-family: "Inter", serif;
     font-weight: 500;
+    min-width: 25vw;
+    margin-bottom: 2vh;
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0;
-    display:flex;
+    min-height: 10vh;
     align-items: center;
     justify-content: center;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh 1vw;
 
 
 }
@@ -1387,12 +1423,15 @@ border-radius: 20px;
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0;
-background: #54BD95;
+    background: #54BD95;
     display:flex;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
-
+    margin-bottom: 1vh;
     color: #FFFFFF;
+    padding: 2vh 11.3vw;
 
 }
 
@@ -1404,6 +1443,7 @@ background: #54BD95;
     letter-spacing: 0;
     color: #A6A6A6;
     float: right;
+    margin-bottom:5vh;
 
 
 }
@@ -1424,4 +1464,14 @@ background: #54BD95;
     display:flex;
     align-items: center;
     justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+}
+
+.page6-left-side{
+    margin-left: 15vw;
+    margin-top:15vh;
+    max-width: 30vw;
+    margin-right: auto;
+    margin-bottom: 18vh;
 }
