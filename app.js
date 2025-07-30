@@ -12,6 +12,7 @@ document.querySelector(".page5-buttonMonthly").addEventListener("click", functio
         document.querySelector(".page5-proTierPrice").textContent=" 8";
         document.querySelector(".page5-freeTierPrice").textContent=" 0";
         document.querySelector(".page5-businessTierPrice").textContent=" 16";
+        
     }
 
 });

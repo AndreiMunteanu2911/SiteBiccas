@@ -399,6 +399,7 @@ body {
     line-height: 100%;
     border-radius: 40px;
     letter-spacing: 0;
+    pointer-events: none;
 }
 
 .group-138-main-image {
@@ -656,6 +657,10 @@ li {
     list-style-type: none;
 }
 
+.list-group-160-individual li{
+    margin-bottom: 1.5vh;
+}
+
 .g160-title {
     font-family: "Inter", serif;
     font-weight: 700;
@@ -752,8 +757,15 @@ li {
 .page3-images{
   width: 364px;
   height:430px;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
 
 
+}
+
+.page3-images:hover{
+    transform: scale(1.1);
 }
 
 
@@ -1060,6 +1072,16 @@ color:#A6A6A6;
      margin-left: 0.5vw;
 
  }
+
+ .enlargeable{
+     -webkit-transition-property: all;
+     -webkit-transition-duration: 0.3s;
+     -webkit-transition-timing-function: ease;
+ }
+
+.enlargeable:hover{transform: scale(1.1); }
+
+
 .page5-proTier{
     display: flex;
     flex-direction: column;
