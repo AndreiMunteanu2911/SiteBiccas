@@ -34,9 +34,6 @@ body {
     justify-content: center;
 }
 
-.list-horizontal {
-    display: inline-flex;
-}
 
 .group-244 {
     border-radius: 10px;
@@ -56,7 +53,7 @@ body {
 .group-227 {
  padding-top: 5vh;
   padding-left: 5vw;
-
+    display: inline-block;
 }
 
 .login-button {
@@ -70,7 +67,8 @@ body {
     background: none;
     border: none;
   transition: 0.2s;
-    padding-left: 20vw;
+
+    margin-right: 1vw;
 
 }
 
@@ -86,16 +84,20 @@ body {
     line-height: 100%;
     letter-spacing: 0;
     color: #F8F8FA;
-    background: none;
+    background: #54BD95;
     border: none;
-    align-items: center;
   transition: 0.2s;
+    border-radius: 10px;
+    align-items: center;
     justify-content: center;
+    padding: 1.5vh 0.5vw;
+
 
 }
 
 .signup-button:hover {
-    color: black;
+    color: #54BD95;
+    background: rgba(212, 255, 239, 1);
 }
 
 .btn-signup-background {
@@ -128,6 +130,7 @@ body {
 
 .list-buttons-main-element {
     padding-left: 15vw;
+    display: flex;
 }
 
 .buttons-main-element:hover {
@@ -233,47 +236,36 @@ body {
     padding-bottom: 25px;
 }
 
-.trial-btn-background {
-    background-color: #54BD95;
-    border-radius: 40px;
-    align-items: center;
-    justify-content: center;
-    padding-top: 1vh;
-    padding-right: 1vw;
-    padding-bottom: 1vh;
-    padding-left: 1vw;
-    display: flex;
-    gap: 1vh;
-}
 
 .trial-button {
-    min-width: 2vw;
-    min-height: 1vh;
     font-family: "Inter", serif;
     font-weight: 500;
     font-style: normal;
     font-size: 18px;
     line-height: 100%;
+    border-radius: 40px;
     letter-spacing: 0;
     color: #FFFFFF;
-    background: none;
+    padding:3vh 2vw;
+    background: #54BD95;
     border: none;
-  transition: 0.2s;
+    transition: 0.2s;
     align-items: center;
+    margin-right: 1vw;
     justify-content: center;
+
 
 }
 
 .trial-button:hover {
-    min-width: 2vw;
-    min-height: 1vh;
     font-family: "Inter", serif;
     font-weight: 500;
     font-style: normal;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0;
-    color: #000000;
+    color: #54BD95;
+    padding:3vh 2vw;
     background: none;
     border: none;
     align-items: center;
@@ -285,7 +277,7 @@ body {
     display: inline-flex;
     min-width: 5vw;
     min-height: 5vh;
-    padding-top: 1vh;
+    padding-top: 1.5vh;
     padding-left: 1vw;
 
 }
@@ -765,8 +757,8 @@ color:#A6A6A6;
   padding: 2vh 1vw;
 }
 .page-3-button:hover{
-  background-color: #54BD95;
-  color: black;
+    color: #54BD95;
+    background: rgba(245, 255, 252, 1);
   border: none;
     background-size:1vw 1vh;
     min-width: 1vw;
