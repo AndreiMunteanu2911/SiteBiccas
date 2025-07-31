@@ -511,7 +511,9 @@
     </div>
 
         <div class="page6-right-side">
+
         <table class="page6-right-side-table">
+            <form>
             <tr>
                 <td class="get-started-image"><img src="resources/Group.svg" alt="gr" height="86px" width="72px" /></td>
             </tr>
@@ -522,20 +524,21 @@
                 <td><label for="emailInput" class="inputLabel">Email:</label></td>
             </tr>
             <tr>
-                <td><input type="email" id="emailInput" class="inputText" placeholder="Enter your email:" /></td>
+                <td><input type="email" id="emailInput" class="inputText" placeholder="Enter your email:" required/></td>
             </tr>
             <tr>
                 <td><label for="messageInput"class="inputLabel">Message:</label></td>
             </tr>
             <tr>
-                <td><textarea rows=3 id="messageInput" placeholder="What do you want to say?" class="inputMessage"></textarea></td>
+                <td><textarea rows=3 id="messageInput" placeholder="What do you want to say?" class="inputMessage" required></textarea></td>
             </tr>
             <tr>
-                <td><button class="page6-requestdemo-button">Request Demo</button></td>
+                <td><input type="submit" class="page6-requestdemo-button" value="Request Demo"></td>
             </tr>
             <tr>
                 <td class="page6-freeTrial">or <a href="#" class="page6-trial-link">Start Free Trial</a></td>
             </tr>
+            </form>
         </table>
     </div>
     </div>
