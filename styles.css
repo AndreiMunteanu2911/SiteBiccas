@@ -195,6 +195,11 @@ body {
 .logo-comp-list {
     margin-left: 2vw;
     margin-right: 3vw;
+    pointer-events: none;
+}
+
+.star-rating{
+    pointer-events: none;
 }
 
 .group-243 {
@@ -405,6 +410,7 @@ body {
 .group-138-main-image {
     display: flex;
     position: absolute;
+    pointer-events: none;
 }
 
 .group-59 {
@@ -414,12 +420,14 @@ body {
     position: absolute;
     left: 525px;
     top: 25px;
+    pointer-events: none;
 }
 
 .frame-45 {
     width: 146px;
     height: 188px;
     display: flex;
+    pointer-events: none;
     position: absolute;
     left: 500px;
     top: 325px;
@@ -428,6 +436,7 @@ body {
 .group-48 {
     width: 40px;
     height: 40px;
+    pointer-events: none;
     display: flex;
     position: absolute;
     left: 400px;
@@ -438,6 +447,7 @@ body {
     width: 40px;
     height: 40px;
     display: flex;
+    pointer-events: none;
     position: absolute;
     left: 30px;
     top: 150px;
@@ -447,6 +457,7 @@ body {
     width: 12px;
     height: 8px;
     top: 10px;
+    pointer-events: none;
     right: 26px;
     position: relative;
 }
@@ -455,6 +466,7 @@ body {
     width: 138px;
     height: 70px;
     display: flex;
+    pointer-events: none;
     position: absolute;
     left: 50px;
     top: 385px;
@@ -463,6 +475,7 @@ body {
 .rect-38 {
     width: 262px;
     height: 78px;
+    pointer-events: none;
     display: flex;
     position: absolute;
     right: 450px;
@@ -472,6 +485,7 @@ body {
 .rect-37 {
     width: 227px;
     height: 1px;
+    pointer-events: none;
     display: flex;
     position: absolute;
     right: 15px;
@@ -484,6 +498,7 @@ body {
     font-size: 12px;
     line-height: 100%;
     letter-spacing: 0;
+    pointer-events: none;
     min-width: 77px;
     min-height: 18px;
     color: #A9A7B6;
@@ -504,6 +519,7 @@ body {
     width: 70px;
     height: 18px;
     opacity: 1;
+    pointer-events: none;
     color: #000000;
     position: absolute;
     right: 170px;
@@ -685,23 +701,27 @@ li {
 
 .rect-90 {
     position: relative;
+    pointer-events: none;
 }
 
 .vect1{
   width: 30px;
   height: 30px;
   top:12px;
+    pointer-events: none;
   left:14px;
   position:absolute;
 }
 .pie-chart-p2{
   width: 30px;
+    pointer-events: none;
   height: 30px;
   top:12px;
   left:14px;
   position:absolute;
 }
 .command-p2{
+    pointer-events: none;
   width: 30px;
   height: 30px;
   top:12px;
@@ -917,6 +937,7 @@ color:#A6A6A6;
 
 .page4-checkmark{
   max-width: 2vw;
+    pointer-events: none;
 }
 .page4-left-side{
   min-height: 20vh;
@@ -931,27 +952,32 @@ color:#A6A6A6;
 .rect-48{
     position: relative;
     min-width: 450px;
+    pointer-events: none;
     min-height: 529px;
 }
 
 .group-111{
     position: absolute;
     top:30px;
+    pointer-events: none;
     right:300px;
 }
 .group-112{
     position: absolute;
     top:90px;
+    pointer-events: none;
     left:400px;
 }
 .group-113{
     position: absolute;
+    pointer-events: none;
     top:260px;
     right:425px;
 }.group-114{
      position: absolute;
      top:450px;
      right:300px;
+     pointer-events: none;
  }
 
  .page5{
@@ -1825,6 +1851,7 @@ border-radius: 20px;
 
 .get-started-image{
     display:flex;
+    pointer-events: none;
     align-items: center;
     justify-content: center;
     padding-top: 5vh;
@@ -1841,6 +1868,7 @@ border-radius: 20px;
 
 .review-pics-table td{
     padding-right: 1vw;
+    pointer-events: none;
     margin-right: 1vw;
 }
 
