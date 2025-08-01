@@ -66,7 +66,6 @@ document.querySelector(".page5-buttonMonthly").addEventListener("click", functio
         setInactive("business");
 
     }
-
 });
 
 document.querySelector(".page5-buttonYearly").addEventListener("click", function()
@@ -105,8 +104,8 @@ document.querySelector("#page5-freeTier").addEventListener("click", function(){
     setActive("free");
     setInactive("pro");
     setInactive("business");
-});
 
+});
 
 document.querySelector("#page5-proTier").addEventListener("click", function(){
 
@@ -120,11 +119,6 @@ document.querySelector("#page5-proTier").addEventListener("click", function(){
 
 });
 
-
-
-
-
-
 document.querySelector("#page5-businessTier").addEventListener("click", function(){
 
     setEnlarged("business");
@@ -134,4 +128,5 @@ document.querySelector("#page5-businessTier").addEventListener("click", function
     setInactive("free");
     setInactive("pro");
     setActive("business");
+
 });
