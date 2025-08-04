@@ -1081,13 +1081,31 @@ color:#A6A6A6;
  .page5-divBottom{
      display: flex;
      flex-direction: row;
-     align-items: center;
+/*     align-items: center;*/
      justify-content: center;
-     min-height: 30vh;
-     min-width: 55vw;
+
+
      padding-bottom: 18vh;
+     align-items: stretch;
+     flex-wrap: wrap;
 
  }
+
+ #page5-freeTier{
+    flex: 1;
+     min-width: 0;
+/*     max-width: 15vw;*/
+ }
+#page5-proTier{
+    flex: 1;
+    min-width: 0;
+/*    max-width: 15vw;*/
+}
+#page5-businessTier{
+    flex: 1;
+    min-width: 0;
+/*    max-width: 15vw;*/
+}
 
  .page5-freeTier{
      display: flex;
@@ -1696,7 +1714,6 @@ border-radius: 20px;
     border:none;
  /*   min-width: 40vw;*/
     margin-left: 5vw;
-
     margin-top:15vh;
     margin-right: 15vw;
     margin-bottom: 18vh;
@@ -1730,7 +1747,9 @@ border-radius: 20px;
 }
 
 .page6-right-side-table{
-    align-content: center;
+    align-items: stretch;
+    justify-content: stretch;
+    flex-wrap: wrap;
     display: flex;
 }
 .input_page6{
@@ -1777,6 +1796,7 @@ border-radius: 20px;
     font-weight: 500;
     min-width: 25vw;
     margin-bottom: 2vh;
+
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0;
